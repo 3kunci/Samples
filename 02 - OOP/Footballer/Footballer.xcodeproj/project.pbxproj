@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA09AF811513348300E48BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA09AF801513348300E48BBA /* Foundation.framework */; };
+		BA09AF841513348300E48BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09AF831513348300E48BBA /* main.m */; };
+		BA09AF881513348300E48BBA /* Footballer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA09AF871513348300E48BBA /* Footballer.1 */; };
+		BA09AF901513359400E48BBA /* Footballer.m in Sources */ = {isa = PBXBuildFile; fileRef = BA09AF8F1513359400E48BBA /* Footballer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA09AF7A1513348300E48BBA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BA09AF881513348300E48BBA /* Footballer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA09AF7C1513348300E48BBA /* Footballer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Footballer; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA09AF801513348300E48BBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA09AF831513348300E48BBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA09AF861513348300E48BBA /* Footballer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Footballer-Prefix.pch"; sourceTree = "<group>"; };
+		BA09AF871513348300E48BBA /* Footballer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Footballer.1; sourceTree = "<group>"; };
+		BA09AF8E1513359400E48BBA /* Footballer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Footballer.h; sourceTree = "<group>"; };
+		BA09AF8F1513359400E48BBA /* Footballer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Footballer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA09AF791513348300E48BBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA09AF811513348300E48BBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA09AF711513348200E48BBA = {
+			isa = PBXGroup;
+			children = (
+				BA09AF821513348300E48BBA /* Footballer */,
+				BA09AF7F1513348300E48BBA /* Frameworks */,
+				BA09AF7D1513348300E48BBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA09AF7D1513348300E48BBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA09AF7C1513348300E48BBA /* Footballer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA09AF7F1513348300E48BBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA09AF801513348300E48BBA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA09AF821513348300E48BBA /* Footballer */ = {
+			isa = PBXGroup;
+			children = (
+				BA09AF831513348300E48BBA /* main.m */,
+				BA09AF8E1513359400E48BBA /* Footballer.h */,
+				BA09AF8F1513359400E48BBA /* Footballer.m */,
+				BA09AF871513348300E48BBA /* Footballer.1 */,
+				BA09AF851513348300E48BBA /* Supporting Files */,
+			);
+			path = Footballer;
+			sourceTree = "<group>";
+		};
+		BA09AF851513348300E48BBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA09AF861513348300E48BBA /* Footballer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA09AF7B1513348300E48BBA /* Footballer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA09AF8B1513348300E48BBA /* Build configuration list for PBXNativeTarget "Footballer" */;
+			buildPhases = (
+				BA09AF781513348300E48BBA /* Sources */,
+				BA09AF791513348300E48BBA /* Frameworks */,
+				BA09AF7A1513348300E48BBA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Footballer;
+			productName = Footballer;
+			productReference = BA09AF7C1513348300E48BBA /* Footballer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA09AF731513348200E48BBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = 3kunci;
+			};
+			buildConfigurationList = BA09AF761513348200E48BBA /* Build configuration list for PBXProject "Footballer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA09AF711513348200E48BBA;
+			productRefGroup = BA09AF7D1513348300E48BBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA09AF7B1513348300E48BBA /* Footballer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA09AF781513348300E48BBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA09AF841513348300E48BBA /* main.m in Sources */,
+				BA09AF901513359400E48BBA /* Footballer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA09AF891513348300E48BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA09AF8A1513348300E48BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA09AF8C1513348300E48BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Footballer/Footballer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA09AF8D1513348300E48BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Footballer/Footballer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA09AF761513348200E48BBA /* Build configuration list for PBXProject "Footballer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA09AF891513348300E48BBA /* Debug */,
+				BA09AF8A1513348300E48BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA09AF8B1513348300E48BBA /* Build configuration list for PBXNativeTarget "Footballer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA09AF8C1513348300E48BBA /* Debug */,
+				BA09AF8D1513348300E48BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA09AF731513348200E48BBA /* Project object */;
+}
