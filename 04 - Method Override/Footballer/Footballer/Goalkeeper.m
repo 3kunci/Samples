@@ -10,8 +10,13 @@
 
 @implementation Goalkeeper
 
+- (void)showProfile {
+    NSLog(@"%@ (%d) reflects:%d wage:$%d per week", 
+          [self name], [self age], [self skill], [self wage]);
+}
+
 - (void)save {
-    NSLog(@"%@ saved the ball!", [self name]);
+    NSLog(@"%@ saved the ball!", self);
 }
 
 @end

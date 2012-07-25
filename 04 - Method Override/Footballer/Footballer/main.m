@@ -29,12 +29,13 @@ int main (int argc, const char * argv[])
         [casillas setAge:31];
         [casillas setSkill:95];
         [casillas setWage:125000];
-                        
+        
         [messi showProfile];
         [casillas showProfile];
         
         [messi shoot];
         [casillas save];
+        
     }
     return 0;
 }

@@ -18,7 +18,11 @@
 }
 
 - (void)shoot {
-    NSLog(@"%@ shoots the ball!", [self name]);
+    NSLog(@"%@ shoots the ball!", self);
+}
+
+- (NSString *)description {
+    return [[[self name] componentsSeparatedByString:@" "] lastObject];
 }
 
 @end
